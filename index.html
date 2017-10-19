@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>计算器</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div id="main">
+
+    <div id="calculator-body">
+
+      <!--输入框部分-->
+      <div id="calculator-input">
+        <input type="text" id="in">
+      </div>
+
+      <div id="calculator-buttons">
+
+        <div>
+          <button class="button-w-h button-style-normal button-style1">mrc</button>
+          <button class="button-w-h button-style-normal button-style1">m-</button>
+          <button class="button-w-h button-style-normal button-style1">m+</button>
+          <button class="button-w-h button-style-normal button-style2" onclick="operaing(4)">÷</button>
+        </div>
+
+        <div>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(7)">7</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(8)">8</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(9)">9</button>
+          <button class="button-w-h button-style-normal button-style2" onclick="operaing(3)">×</button>
+        </div>
+
+        <div>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(4)">4</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(5)">5</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(6)">6</button>
+          <button class="button-w-h button-style-normal button-style2" onclick="operaing(2)">-</button>
+        </div>
+
+        <div>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(1)">1</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(2)">2</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(3)">3</button>
+          <button class="button-w-h button-style-normal button-style2" onclick="operaing(1)">+</button>
+        </div>
+
+        <div>
+          <button class="button-w-h button-style-normal button-style3" onclick="inputNumber(0)">0</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="point()">.</button>
+          <button class="button-w-h button-style-normal button-style3" onclick="zero()">C</button>
+          <button class="button-w-h button-style-normal button-style4" onclick="compute()">=</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

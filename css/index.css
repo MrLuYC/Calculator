@@ -1,0 +1,83 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+body {
+    background: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+#main {
+    text-align: center;
+}
+
+#calculator-body {
+    background-color: rgba(62, 68, 66, 1.0);
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(62, 68, 66, 1.0);
+    margin-top: 200px;
+}
+
+#calculator-input {
+    width: 226px;
+    height: 54px;
+    margin-top: 19px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-bottom: 17px;
+}
+
+#calculator-input input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(209, 228, 164, 1.0);
+    border: 3px solid rgba(35, 35, 35, 1.0);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(35, 35, 35, 1.0);
+    text-align: right;
+    font-size: 44px;
+}
+
+#calculator-buttons {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.button-w-h {
+    width: 43px;
+    height: 30px;
+}
+
+.button-style-normal {
+    color: white;
+    border: 1.5px solid rgba(35, 35, 35, 1.0);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(35, 35, 35, 1.0);
+    margin: 5px;
+    font-size: 18px;
+}
+
+.button-style-normal:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: 1px 1px 1px white;
+}
+
+.button-style1 {
+    background-color: rgba(103, 103, 103, 1.0);
+}
+
+.button-style2 {
+    background-color: rgba(255,79, 105, 1.0);
+}
+
+.button-style3 {
+    background-color: rgba(39, 39, 39, 1.0);
+}
+
+.button-style4{
+    background-color:  rgba(252, 178, 41, 1.0);
+}
